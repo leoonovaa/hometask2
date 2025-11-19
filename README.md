@@ -29,7 +29,8 @@ ssh -i "<your-key>.pem" ubuntu@<your-instance-public-ip>
 
  **Step 3 — Check service status**
 
-```systemctl status httpd
+```systemctl
+status httpd
 ```
 
  **Step 4 — Open in browser**
