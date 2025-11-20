@@ -6,4 +6,5 @@ aws ec2 run-instances \
     --security-group-ids sg-0caa82141cbc09962 \
     --subnet-id subnet-0baadd2ed10426288 \
     --user-data file://userdata.sh \
+    --iam-instance-profile Name="ec2-profile-lab2" \
     --output text
