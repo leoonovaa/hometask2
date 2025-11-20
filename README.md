@@ -33,4 +33,4 @@ systemctl status httpd
 
  **Step 4 — Open in browser**
 
-http://<your-ec2-ip>
+http://your-ec2-ip
