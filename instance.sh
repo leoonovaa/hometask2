@@ -1,5 +1,5 @@
 aws ec2 run-instances \
-    --image-id ami-0fa3fe0fa7920f68e \
+    --image-id ami-01bc990364452ab3e \
     --count 1 \
     --instance-type t3.micro \
     --key-name "Anna dev" \
